@@ -1,0 +1,20 @@
+.block {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.first {
+    background-color: rgb(4, 71, 7);
+}
+
+.second {
+    border: dashed 1px black;
+    background-color: rgb(23, 135, 29);
+}
+
+.middle .block:nth-child(3) {
+    background-color: rgb(100, 203, 105);
+}
