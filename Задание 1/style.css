@@ -18,3 +18,7 @@
 .middle .block:nth-child(3) {
     background-color: rgb(100, 203, 105);
 }
+
+.modal {
+    display: block;
+}
